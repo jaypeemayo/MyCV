@@ -1,9 +1,38 @@
-main {
+section {
+  font-family: tahoma,sans-serif;
+  text-align: center;
   padding: 1em;
-  font-family: Tahoma, sans-serif;
-  text-align: right;
-  margin-top: 50px;
-  display: block;
-  background-color: #111; }
+  margin: 1em; }
+  section h1 {
+    padding: 0 !important;
+    margin: 0 !important; }
+  section h2 {
+    padding: 0 !important;
+    margin: 0 !important; }
+  section h4 {
+    padding: 0 !important;
+    margin: 0 !important; }
+  section h5 {
+    padding: 0 !important;
+    margin: 0 !important; }
+  section table {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%; }
+    section table tr td:nth-child(1) {
+      padding: 2px;
+      width: 30%;
+      text-align: right;
+      vertical-align: top; }
+    section table tr td:nth-child(2) {
+      width: 70%;
+      text-align: left;
+      vertical-align: top; }
+  section ul {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%; }
+    section ul li {
+      text-align: left; }
 
 /*# sourceMappingURL=app.component.css.map */

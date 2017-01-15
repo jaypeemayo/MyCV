@@ -1,14 +1,70 @@
 $font-stack: Tahoma, sans-serif;
-$primary-color: #111;
-$myAlignment: right;
+$primary-color: #999;
+$myAlignment: center;
 
 
 
-main {
+//main {
+//    padding: 1em;
+//    font-family: $font-stack;
+//    text-align: $myAlignment;
+//    margin-top: 50px;
+//    display: block;
+//    background-color: $primary-color;
+//}
+
+
+$header-padding-margin: 0 !important;
+
+
+    section{
+    font-family: tahoma,sans-serif;
+    text-align: center;
     padding: 1em;
-    font-family: $font-stack;
-    text-align: $myAlignment;
-    margin-top: 50px;
-    display: block;
-    background-color: $primary-color;
+    margin: 1em;
+    h1{
+        padding: $header-padding-margin;
+        margin: $header-padding-margin;
+    }
+    h2{
+        padding: $header-padding-margin;
+        margin: $header-padding-margin;
+    }
+    h4{
+        padding: $header-padding-margin;
+        margin: $header-padding-margin;
+    }
+    h5{
+        padding: $header-padding-margin;
+        margin: $header-padding-margin;
+    }
+    table{
+        width:60%;
+        margin-left:20%;
+        margin-right:20%;
+
+            tr{
+
+                td:nth-child(1){
+                    padding: 2px;
+                    width: 30%;
+                    text-align: right;
+                    vertical-align: top;
+                 }
+                td:nth-child(2){
+                    width: 70%;
+                    text-align: left;
+                    vertical-align: top;
+                }
+            }
+    }
+    ul{
+        width:60%;
+        margin-left:20%;
+        margin-right:20%;
+        li{
+            text-align: left;
+        }
+    }
+
 }

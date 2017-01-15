@@ -18,7 +18,6 @@ var AppComponent = (function () {
             selector: 'my-app',
             templateUrl: './app.component.html',
             styleUrls: ['./app.component.scss', '../../public/css/styles.scss'],
-            encapsulation: core_1.ViewEncapsulation.None,
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
